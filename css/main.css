@@ -8,6 +8,10 @@
   box-sizing: inherit;
 }
 
+section {
+  display: inline-block;
+    padding: 1em, 2em, .4em .75em .5em
+}
 
 img {
   max-width: 25em;
@@ -28,11 +32,10 @@ p {
 }
 
 p:last-child {
-  border: solid #666;
+  border: solid #333;
   border-radius: 5px;
   text-align: center;
   margin: 1.5rem;
-  padding: 1em, 2em, .4em .75em .5em
 }
 
 p:last-child:hover {
